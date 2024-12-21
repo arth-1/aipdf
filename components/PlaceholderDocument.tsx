@@ -2,7 +2,7 @@
 
 import { PlusCircleIcon } from 'lucide-react'
 import { Button } from './ui/button'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/compat/router'
 
 function PlaceholderDocument() {
     const router = useRouter();
